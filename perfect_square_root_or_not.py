@@ -1,7 +1,7 @@
 import math
 n=int(input())
-x=math.sqrt(n)
-if n-(int(x)**2)==0:
-    print("True")
+x=(math.sqrt(n))
+if int(x) == x:
+    print('True')
 else:
-    print("False")
+    print('False')
